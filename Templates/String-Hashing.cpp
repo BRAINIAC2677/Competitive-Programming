@@ -87,7 +87,7 @@ int32_t main()
 {
     io;
     calcPow();
-    string s = "ab";
+
 
     return 0;
 }
