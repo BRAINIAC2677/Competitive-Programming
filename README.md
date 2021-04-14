@@ -5,7 +5,7 @@ Contains Resources , practice problems and relevant templates.
 
 - ### Resources
   1. https://cp-algorithms.com/string/string-hashing.html 
-- ### [Template-Code](Templates/String-Hashing)
+- ### [Template-Code](Templates/String-Hashing.cpp)
 - ### Practise Problems
   1. [Easy - Watto and Mechanism](https://codeforces.com/problemset/problem/514/C)
   2. [Medium - Palindrome pairs](https://codeforces.com/contest/159/problem/D)
