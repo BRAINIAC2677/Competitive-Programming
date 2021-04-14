@@ -9,6 +9,7 @@ Contains Resources , practice problems and relevant templates.
 - ### Practise Problems
   1. [Easy - Watto and Mechanism](https://codeforces.com/problemset/problem/514/C)
   2. [Medium - Palindrome pairs](https://codeforces.com/contest/159/problem/D)
+  3. [Medium - Games on a CD](https://codeforces.com/contest/727/problem/E)
 
 ## *Dynamic Programming*
 - ### Practise Problems
