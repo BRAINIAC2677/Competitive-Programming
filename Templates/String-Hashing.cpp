@@ -66,6 +66,8 @@ void completeHash(string &s)
 }
 
 //l and r are 1-indexed
+//Hash multiplied by p^n
+
 pll subStringHash(pll hash[], int n, int l, int r)
 {
     if (l <= 0 || l > r || r > n)
@@ -75,8 +77,8 @@ pll subStringHash(pll hash[], int n, int l, int r)
     res.first = (res.first - hash[l - 1].first + hmod) % hmod;
     res.second = (res.second - hash[l - 1].second + hmod) % hmod;
 
-    res.first = res.first * ppow1[n - l] % hmod;
-    res.second = res.second * ppow2[n - l] % hmod;
+    res.first = res.first * ppow1[n - l + 1] % hmod;
+    res.second = res.second * ppow2[n - l + 1] % hmod;
 
     return res;
 }
@@ -85,6 +87,7 @@ int32_t main()
 {
     io;
     calcPow();
+    string s = "ab";
 
     return 0;
 }
