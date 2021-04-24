@@ -2,6 +2,13 @@
 
 Contains Resources , practice problems and relevant templates.
 
+## _Constructive Algorithms_
+
+- ### Resources
+  1. [Tips on Constructive Algorithms](https://codeforces.com/blog/entry/80317)
+- ### Practise Problems
+  1. [Easy - Fillomino 2](https://codeforces.com/contest/1517/problem/C)
+
 ## _String Hashing_
 
 - ### Resources
@@ -19,6 +26,7 @@ Contains Resources , practice problems and relevant templates.
   2. [Medium hard - Python Indentation](https://codeforces.com/contest/909/problem/C)
   3. [Medium - Mr. Kitayuta, the Treasure Hunter](https://codeforces.com/problemset/problem/505/C)
   4. [Easy - The Sports Festival](https://codeforces.com/contest/1509/problem/C)
+  5. [Medium - Explorer Space](https://codeforces.com/contest/1517/problem/D)
 
 ## _Bitmask_
 
@@ -31,7 +39,10 @@ Contains Resources , practice problems and relevant templates.
 
   1. https://cp-algorithms.com/data_structures/segment_tree.html#toc-tgt-9
 
+  2. [Distinct numbers on an interval](https://discuss.codechef.com/t/distinct-numbers-on-an-interval/18350/2)
+
 - ### [Template-Code](Templates/Merge-Sort-Tree)
 
 - ### Practise Problems
   1. [Beginner - K-query](https://www.spoj.com/problems/KQUERY/)
+  2. [Medium - Smallest subarrays](https://www.hackerearth.com/challenges/competitive/april-circuits-21/algorithm/smallest-subarray-2-d6530e0b/)
