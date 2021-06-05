@@ -2,6 +2,10 @@
 
 Contains Resources , practice problems and relevant templates.
 
+## _Theorems And Concepts_
+
+- [Regular Polygon](https://www.mathsisfun.com/geometry/regular-polygons.html)
+
 ## _Constructive Algorithms_
 
 - ### Resources
@@ -27,11 +31,20 @@ Contains Resources , practice problems and relevant templates.
   3. [Medium - Mr. Kitayuta, the Treasure Hunter](https://codeforces.com/problemset/problem/505/C)
   4. [Easy - The Sports Festival](https://codeforces.com/contest/1509/problem/C)
   5. [Medium - Explorer Space](https://codeforces.com/contest/1517/problem/D)
+  6. [Hard - Traveler](https://atcoder.jp/contests/abc197/tasks/abc197_e)
+  7. [Medium - Armchairs](http://codeforces.com/contest/1525/problem/D)
+  8. [linear dp - Kavi on Pairing Duty](http://codeforces.com/contest/1529/problem/D)
+  9. [tree dp - Parsa's Humongous Tree](http://codeforces.com/contest/1529/problem/C)
 
 ## _Bitmask_
 
 - ### Practise Problems
   1. [Beautiful - AGAGA XOOORRR](https://codeforces.com/contest/1516/problem/B)
+
+## _Segment Tree_
+
+- ### Practise Problems
+  1. [Playoff Tournament](http://codeforces.com/contest/1535/problem/D)
 
 ## _Merge Sort Tree_
 
@@ -46,3 +59,8 @@ Contains Resources , practice problems and relevant templates.
 - ### Practise Problems
   1. [Beginner - K-query](https://www.spoj.com/problems/KQUERY/)
   2. [Medium - Smallest subarrays](https://www.hackerearth.com/challenges/competitive/april-circuits-21/algorithm/smallest-subarray-2-d6530e0b/)
+
+## _DFS_
+
+- ### Practise Problems
+  1. [Easy - Unique Color](https://atcoder.jp/contests/abc198/tasks/abc198_e)
