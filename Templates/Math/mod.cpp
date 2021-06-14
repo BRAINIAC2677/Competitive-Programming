@@ -19,7 +19,7 @@ typedef vector<int> vi;
 #define all(r) (r).begin(), (r).end()
 #define dbg(a) cout << #a << " ->->->-> " << a << "\n"
 #define inf 100000000000000000
-#define mod 1000000007
+#define mod 998244353
 #define N 3000000
 
 int dirx[] = {1, -1, 0, 0, 1, 1, -1, -1}, diry[] = {0, 0, 1, -1, 1, -1, 1, -1};
@@ -52,9 +52,19 @@ int strMod(string a, int m)
     return cur % m;
 }
 
+ll modInv(ll a)
+{
+    return bigmod(a, mod - 2) % mod;
+}
+
+ll divisionMod(ll a, ll b)
+{
+    return a % mod * modInv(b) % mod;
+}
+
 int32_t main()
 {
     io;
-
+    cout << divisionMod(1, 10);
     return 0;
 }

@@ -2,6 +2,35 @@
 
 Contains Resources , practice problems and relevant templates.
 
+## Topics
+
+<ul>
+  <li>
+    <a href = "#constructive-algorithms">Contructive Algorithms</a>
+  </li>
+  <li>
+    <a href = "#string-hashing">String Hashing</a>
+  </li>
+  <li>
+    <a href = "#dynamic-programming">Dynamic Programming</a>
+  </li>
+  <li>
+    <a href = "#bitmask">Bitmask</a>
+  </li>
+  <li>
+    <a href = "#segment-tree">Segment Tree</a>
+  </li>
+  <li>
+    <a href = "#merge-sort-tree">Merge Sort Tree</a>
+  </li>
+  <li>
+    <a href = "#dfs">DFS</a>
+  </li>
+  <li>
+    <a href = "#interactive-problems">Interactive Problems</a>
+  </li>
+</ul>
+
 ## _Theorems And Concepts_
 
 - [Regular Polygon](https://www.mathsisfun.com/geometry/regular-polygons.html)
@@ -64,3 +93,8 @@ Contains Resources , practice problems and relevant templates.
 
 - ### Practise Problems
   1. [Easy - Unique Color](https://atcoder.jp/contests/abc198/tasks/abc198_e)
+
+## _Interactive Problems_
+
+- ### Practise Problems
+  1. [Hard - Lost Tree](http://codeforces.com/contest/1534/problem/D)
