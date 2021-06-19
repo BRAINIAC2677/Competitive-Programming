@@ -6,6 +6,9 @@ Contains Resources , practice problems and relevant templates.
 
 <ul>
   <li>
+    <a href = "#asymptotic-analysis">Asymptotic Analysis</a>
+  </li>
+  <li>
     <a href = "#constructive-algorithms">Contructive Algorithms</a>
   </li>
   <li>
@@ -34,6 +37,12 @@ Contains Resources , practice problems and relevant templates.
 ## _Theorems And Concepts_
 
 - [Regular Polygon](https://www.mathsisfun.com/geometry/regular-polygons.html)
+
+## _Asymptotic Analysis_
+
+- ### Resources
+  1. [Quick Read](https://www.programiz.com/dsa/asymptotic-notations)
+  2. [Part-1](Assets/background-of-asymptotic-analysis-1.m4a)
 
 ## _Constructive Algorithms_
 
