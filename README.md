@@ -42,7 +42,6 @@ Contains Resources , practice problems and relevant templates.
 
 - ### Resources
   1. [Quick Read](https://www.programiz.com/dsa/asymptotic-notations)
-  2. [Part-1](Assets/background-of-asymptotic-analysis-1.m4a)
 
 ## _Constructive Algorithms_
 
