@@ -106,3 +106,13 @@ Contains Resources , practice problems and relevant templates.
 
 - ### Practise Problems
   1. [Hard - Lost Tree](http://codeforces.com/contest/1534/problem/D)
+  2. [Medium - RPD and Rap Sheet (Easy Version)](https://codeforces.com/contest/1543/problem/D1)
+
+## _Expected Value_
+
+- ### Resources
+
+  1. [Errichto](https://codeforces.com/blog/entry/62690)
+
+- ### Practise Problems
+  1. [Easy - Need for Pink Slips](http://codeforces.com/contest/1543/problem/C)
