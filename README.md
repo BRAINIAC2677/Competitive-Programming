@@ -72,6 +72,7 @@ Contains Resources , practice problems and relevant templates.
   7. [Medium - Armchairs](http://codeforces.com/contest/1525/problem/D)
   8. [linear dp - Kavi on Pairing Duty](http://codeforces.com/contest/1529/problem/D)
   9. [tree dp - Parsa's Humongous Tree](http://codeforces.com/contest/1529/problem/C)
+  10. [Hard - Red-Black Number](https://codeforces.com/contest/1593/problem/F)
 
 ## _Bitmask_
 
