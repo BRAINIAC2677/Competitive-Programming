@@ -102,6 +102,7 @@ Contains Resources , practice problems and relevant templates.
 
 - ### Practise Problems
   1. [Easy - Unique Color](https://atcoder.jp/contests/abc198/tasks/abc198_e)
+  2. [Nice Solution - The Number of Imposters](https://codeforces.com/contest/1594/problem/D)
 
 ## _Interactive Problems_
 
