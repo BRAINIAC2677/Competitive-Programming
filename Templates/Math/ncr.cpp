@@ -11,7 +11,7 @@ typedef pair<ll, ll> pll;
 typedef vector<long long> vll;
 typedef vector<int> vi;
 
-//MACROS
+// MACROS
 #define io ios_base::sync_with_stdio(false)
 #define pb push_back
 #define SET(n, i) bool(n & (1 << i))

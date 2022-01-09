@@ -38,6 +38,8 @@ Contains Resources , practice problems and relevant templates.
 
 - [Regular Polygon](https://www.mathsisfun.com/geometry/regular-polygons.html)
 
+- [Permutation](https://www.geeksforgeeks.org/number-of-transpositions-in-a-permutation/) - Even odd permutation, cyclic notation, transposition of a permutation.
+
 ## _Asymptotic Analysis_
 
 - ### Resources
