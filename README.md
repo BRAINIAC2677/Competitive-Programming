@@ -84,7 +84,16 @@ Contains Resources , practice problems and relevant templates.
 ## _Segment Tree_
 
 - ### Practise Problems
+
   1. [Playoff Tournament](http://codeforces.com/contest/1535/problem/D)
+
+- ### Applications:
+  - Sum, Min, Max, Product, GCD, LCM over a range of a changable array.
+  - Number of Min/Max in a range.
+  - Finding the K'th zero.
+  - For a given value x we have to quickly find smallest index i such that the sum of the first i elements of the array a[] is greater or equal to x (assuming that the array a[] only contains non-negative values).
+  - For a given value x and a range a[l…r] find the smallest i in the range a[l…r], such that a[i] is greater than x.
+  - Finding subsegments with the maximal sum.
 
 ## _Merge Sort Tree_
 
