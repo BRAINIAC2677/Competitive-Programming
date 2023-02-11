@@ -6,8 +6,10 @@ class UndirectedUnweightedGraph
     int n, m;
     vector<vector<int>> adj;
     vector<vector<int>> connected_components;
+    vector<vector<int>> cycles;
 
     void dfs_connected_components(int vertex, vector<bool> &visited, vector<int> &current_component);
+    void dfs_cycles(int v, int p, int &current_cycle_number, vector<int> &color, vector<int> &parents, vector<int> &cycle_numbers);
 
 public:
     void setn(int);
@@ -19,7 +21,58 @@ public:
     void add_edge(int u, int v);
     // void rm_edge(int u, int v);
     vector<vector<int>> get_connected_components();
+    vector<vector<int>> get_cycles();
 };
+
+void UndirectedUnweightedGraph::dfs_cycles(int u, int p, int &current_cycle_number, vector<int> &color, vector<int> &parents, vector<int> &cycle_numbers)
+{
+
+    cout << u << "\n";
+    if (color[u] == 2)
+    {
+        return;
+    }
+
+    if (color[u] == 1)
+    {
+        int cur = p;
+        cycle_numbers[cur] = current_cycle_number;
+        while (cur != u)
+        {
+            cur = parents[cur];
+            cycle_numbers[cur] = current_cycle_number;
+        }
+        current_cycle_number++;
+    }
+
+    parents[u] = p;
+    color[u] = 1;
+    for (int v : this->adj[u])
+    {
+        if (v != parents[u])
+        {
+            dfs_cycles(v, u, current_cycle_number, color, parents, cycle_numbers);
+        }
+    }
+
+    color[u] = 2;
+}
+
+vector<vector<int>> UndirectedUnweightedGraph::get_cycles()
+{
+    int current_cycle_number = 0;
+    vector<int> color(this->n), parents(this->n, -1), cycle_numbers(this->n, -1);
+    dfs_cycles(0, -1, current_cycle_number, color, parents, cycle_numbers);
+    this->cycles.assign(current_cycle_number, vector<int>());
+    for (int i = 0; i < this->n; i++)
+    {
+        if (cycle_numbers[i] != -1)
+        {
+            this->cycles[cycle_numbers[i]].push_back(i + 1); // i+1 as returned vertex are 1-indexed
+        }
+    }
+    return this->cycles;
+}
 
 void UndirectedUnweightedGraph::dfs_connected_components(int vertex, vector<bool> &visited, vector<int> &current_component)
 {
@@ -96,6 +149,7 @@ void UndirectedUnweightedGraph::add_edge(int u, int v)
 
 vector<vector<int>> UndirectedUnweightedGraph::get_connected_components()
 {
+    // vertices of returned connected components are numbered from 1 to n
     vector<bool> visited(this->n, false);
     for (int i = 0; i < n; i++)
     {
@@ -117,12 +171,16 @@ int main()
     g.setn(n);
     g.setm(m);
     g.input_edges();
-    vector<vector<int>> comps = g.get_connected_components();
-    int cs = comps.size();
-    cout << cs - 1 << "\n";
-    for (int i = 0; i < cs - 1; i++)
+    cout << "\n";
+    g.print_edges();
+    vector<vector<int>> cycles = g.get_cycles();
+    for (int i = 0; i < cycles.size(); i++)
     {
-        cout << comps[i][0] << " " << comps[i + 1][0] << "\n";
+        for (int j = 0; j < cycles[i].size(); j++)
+        {
+            cout << cycles[i][j] << " ";
+        }
+        cout << "\n";
     }
     return 0;
 }
