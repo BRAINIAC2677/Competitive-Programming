@@ -80,11 +80,36 @@ const int mod = 1000000007;
 const long long int inf = 1000000000000000000;
 //=============================================ASIFAZAD==============================================//
 
-int main()
+vi fac(maxn);
+void fact()
+{
+    fac[0] = 1;
+    for (int i = 1; i < maxn; i++)
+        fac[i] = 1LL * fac[i - 1] * i % mod;
+}
+long long binexp_modular(long long a, long long b, long long m)
+{
+    a %= m;
+    long long res = 1;
+    while (b > 0)
+    {
+        if (b & 1)
+            res = res * a % m;
+        a = a * a % m;
+        b >>= 1;
+    }
+    return res;
+}
+ll ncr(int n, int r)
+{
+    ll res = (fac[n] * binexp_modular(1LL * fac[r] * fac[n - r] % mod, mod - 2, mod)) % mod;
+    return res;
+}
+
+int32_t main()
 {
     io;
-    ifstream in("input.txt");
-    ofstream out("output.txt");
+    fact();
 
     return 0;
 }
